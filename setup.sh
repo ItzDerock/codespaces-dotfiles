@@ -16,6 +16,7 @@ echo [config]: $SETTINGS_PATH
 echo '{
     "workbench.colorTheme": "Horizon Italic",
     "workbench.iconTheme": "material-icon-theme",
+    "terminal.integrated.defaultProfile.linux": "bash",
 }' > $SETTINGS_PATH/settings.json
 
 # list of all extensions to install
